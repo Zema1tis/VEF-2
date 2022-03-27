@@ -1,0 +1,113 @@
+
+/* 1em = 16px */
+.container {
+    display: flex;
+    justify-content: center;
+    
+}
+  
+.tafla {
+    margin: 0 auto;
+    width: 50em;
+}
+  
+.tafla {
+    border-collapse: collapse;
+}
+.tafla td {
+    border: 1px solid;
+    padding: .3em;
+}
+
+/* ---------------------------------
+        cssgrid, bgimage og fl.
+-----------------------------------*/
+.fela {
+    display: none;
+}
+
+/* ---------------------------------
+            forsida
+-----------------------------------*/
+/*------------hringir--------------*/
+.hringur {
+    text-align: center;
+
+}
+.hringur h1 {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 2.5em;
+    margin: 0 auto;
+    padding: .4em;
+}
+/*------------greenbar--------------*/
+.green {
+    background-image: url(images/values-bg.jpg);
+    color: #fff;
+}
+
+/* ---------------------------------
+             main
+-----------------------------------*/
+.main {
+    display: grid; 
+    grid-template-columns: 1fr;
+}
+
+
+/* ---------------------------------
+             footer
+-----------------------------------*/
+.bg-color {
+    background-color: #96E9D7;
+}
+.info {
+    margin: .6em;
+
+}
+
+
+
+/* ---------------------------------
+            buttons
+-----------------------------------*/
+.button {
+    display: none;
+}
+
+
+/* Larger than mobile */
+  @media screen and (min-width: 30em) {}
+
+/* Larger than phablet (also point when grid becomes active) */
+  @media screen and (min-width: 37.5em) {}
+
+  /* Larger than tablet */
+  @media screen and (min-width: 48em) {
+    h1 { 
+        font-size: 3.0em; 
+        line-height: 1.6;
+        margin: 0.5em 0;  
+    }
+    h2 { 
+        font-size: 2em; 
+        line-height: 1.6;  
+        margin-bottom: 0.5em;  
+    }
+    h3 { 
+        font-size: 1.6em; 
+        line-height: 1.6;  
+    }
+  }
+  
+/* Larger than desktop */
+  @media screen and (min-width: 60em) {
+
+  }
+  
+  /* Larger than Desktop HD */ 
+  @media screen and (min-width: 100em) {
+
+  }
+  
